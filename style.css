@@ -1,0 +1,174 @@
+/* Global/Desktop View */
+
+body{
+   color: white;
+   text-decoration: none; 
+   background-color: #fbc414;
+   background-image: linear-gradient(140deg, #fbc414 10%, #000000 40%, #a27f0e 100%);
+}
+
+a{
+    color: white;
+    text-decoration: white;
+}
+
+
+
+.header-container{
+    position: relative;
+    width: 100%;
+}
+header{
+    max-width: 1024px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.logo{
+    padding-left: 11px;
+    display: flex;
+    align-items: center;
+}
+.logo p{
+    display: inline-block;
+    margin-left: 7px;
+    font-size: 1.5rem;
+}
+a i{
+    font-size: 1.125rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.navbutton{
+    margin-left: 10px;
+    padding: 11px 25px;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+}
+.mob-wrapper{
+    display: none;       
+}
+
+
+
+.music-con{
+    max-width: 1024px;
+    min-height: 400;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin: auto;
+    
+}
+.album-con{
+    height: 250px;
+    width: 47%;
+    margin-bottom: 20px;
+
+}
+.album-div{
+    height:75%;
+    width:75%;
+    background-color: rgb(66, 7, 53);
+    box-sizing: border-box;
+    margin: 35px auto;
+
+}
+
+
+
+.contact-con{
+    max-width: 1024px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    margin: auto;
+}
+.image-con{
+    background-image: url(images/person_CV.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 30%;
+
+}
+.contact-info-con{
+    background-color: olivedrab;
+    height: 200px;
+    width: 70%;
+}
+
+
+
+.footer-con{
+    position: relative;
+    min-height: 150px;
+    width: 100%;
+    padding-top: 50px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    width: 75%;
+    min-height: 100px;
+    text-align: center;
+    
+    margin: auto;
+    
+}
+
+/* 
+/* Tablet View */
+/* @media (max-width: 768px){
+    
+
+    .hide-desktop-only{
+        display: block;
+    }
+    .header-container{
+        position: relative;
+
+    }
+    nav{
+        display: none;
+    }
+    nav a{
+        display: block;
+        margin-left: 0;
+    }
+    .logo{
+        padding: 40px 0px;
+    }
+    .mob-wrapper{
+        display: block;
+        padding-right: 30px;       
+    }
+    .mob-nav{
+        display: none;
+        position: absolute;
+        padding-top: 10px;
+    }
+    .navbutton{
+        display: block;
+        background-color: coral;
+        padding: 15px 30px;
+        margin-left: -70px;
+        text-align: center;
+    }
+} */
+
+/* Mobile View */
+
+/* @media (max-width: 400px){
+
+    .hide-mobile {
+        display: none;
+    }
+
+
+} */ 
